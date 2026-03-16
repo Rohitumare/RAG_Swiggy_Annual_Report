@@ -7,7 +7,7 @@ from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 # -------------------------------
 # CONFIG
 # -------------------------------
-PDF_PATH = "data/Annual-Report-FY-2023-24 (1).pdf"
+PDF_PATH = "Annual-Report-FY-2023-24 (1).pdf"
 EMBED_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 LLM_MODEL_NAME = "google/flan-t5-base"
 CHUNK_SIZE = 1000
